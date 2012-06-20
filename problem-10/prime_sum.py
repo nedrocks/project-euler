@@ -1,6 +1,6 @@
 """Sums all primes under 2e6 (see http://projecteuler.net/problem=10)"""
 
-from util.py import prime
+from python_util.numbers import prime
 
 _MAX = 2000000
 
