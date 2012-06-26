@@ -59,8 +59,6 @@ def find_max_adjacent(grid, agg, num):
             else:
                 diag_left = 0
             dp_grid[i][j] = max([max_up, max_left, right, down, diag_right, diag_left])
-    for l in dp_grid:
-        print l
     return dp_grid[-1][-1]
 
 
